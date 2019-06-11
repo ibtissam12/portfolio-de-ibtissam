@@ -90,6 +90,8 @@ function verifyInput($var) {
     <meta name="description" content="<?php echo $lang['sur moi']; ?>" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/ib-favicon.png">
+
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
@@ -144,7 +146,7 @@ function verifyInput($var) {
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
                 <div class="text-center">
-                    <div class="author-img" style="background-image: url(images/betylogo.png); background-size:80px"></div>
+                    <div class="author-img" style="background-image: url(images/ib.png); background-size:80px"></div>
                     <h1 id="colorlib-logo"><a href="index.php">Ibtissam Belamria</a></h1>
                     <span class="position"><a href="#"><?php echo $lang['spane']; ?> </a><?php echo $lang['country']; ?></span>
                 </div>
@@ -159,7 +161,12 @@ function verifyInput($var) {
                             <li><a href="#" data-nav-section="work"><?php echo $lang['TRAVAIL']; ?></a></li>
                             <li><a href="#" data-nav-section="contact"><?php echo $lang['CONTACT']; ?></a></li>
                         </ul>
+
                     </div>
+                        <ul>
+                            <li><a href="index.php?lang=en"><img src="languages/en.png" width="18px" height="15px"></a>
+                            <a href="index.php?lang=fr"><img src="languages/fr.png" width="18px" height="15px"></a></li>
+                        </ul>
                 </nav>
 
                 <div class="colorlib-footer">
@@ -592,7 +599,7 @@ function verifyInput($var) {
                                 </div>
                             </div>
                             <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="project" style="background-image: url(images/sonbola.bmp);background-size: 75% 90%;">
+                                <div class="project" style="background-image: url(images/sonbola.jpg);background-size: 75% 90%;">
                                     <div class="desc">
                                         <div class="con">
                                             <h3><a href="work.html"><?php echo $lang['Work 02'];?></a></h3>
@@ -614,7 +621,7 @@ function verifyInput($var) {
                                 </div>
                             </div>
                             <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                                <div class="project" style="background-image: url(images/mylogo.png);background-size: 65% auto;">
+                                <div class="project" style="background-image: url(images/mylogo.jpg);background-size: 65% auto;">
                                     <div class="desc">
                                         <div class="con">
                                             <h3><a href="work.html"><?php echo $lang['Work 04'];?></a></h3>
@@ -625,7 +632,7 @@ function verifyInput($var) {
                                 </div>
                             </div>
                             <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="project" style="background-image: url(images/design01.png);background-size: 50% auto;">
+                                <div class="project" style="background-image: url(images/design01.jpg);background-size: 50% auto;">
                                     <div class="desc">
                                         <div class="con">
                                             <h3><a href="work.html"><?php echo $lang['Work 05'];?></a></h3>
@@ -662,7 +669,7 @@ function verifyInput($var) {
                         <div class="row">
                             <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry">
-                                    <a class="blog-img"><img src="images/epocket1.png" class="img-responsive" ></a>
+                                    <a class="blog-img"><img src="images/epocket1.jpg" class="img-responsive" ></a>
                                     <div class="desc">
                                        
                                         <h3>Epocket</h3>
@@ -672,7 +679,7 @@ function verifyInput($var) {
                             </div>
                             <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
                                 <div class="blog-entry">
-                                    <a  class="blog-img"><img src="images/tim9it1.png" style="height:130px;" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                                    <a  class="blog-img"><img src="images/tim9it1.jpg" style="height:130px;" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                     <div class="desc">
                                        
                                         <h3><a >Tim9it</a></h3>
@@ -762,8 +769,6 @@ function verifyInput($var) {
                                             <p class="thank you" style="display:<?php if($isSuccess) echo 'block'; else echo'none' ;?>">Votre message a bien été envoyé. merci de m'avoir contacté :)</p>
                                             </div>
                                         </form>
-                                        <p ><a href="index.php?lang=en"><img src="languages/eng.png" width="18px" height="15px"></a>
-                                        |<a href="index.php?lang=fr"><img src="languages/france.png" width="18px" height="15px"></a></p>
                                     </div>
 
                                 </div>
